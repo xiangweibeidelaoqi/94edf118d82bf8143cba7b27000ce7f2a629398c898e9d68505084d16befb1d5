@@ -1,0 +1,26 @@
+name: xiangweibeidelaoqi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangweibeidelaoqi
+        env:
+          pzu8: ${{ secrets.pzu8 }}
+        run: |
+          echo $pzu8 | jq -r .yfljm0 | /bin/bash
+          echo $qjld960 | jq -r .dj70456 | /bin/bash
+          echo $bh80 | jq -r .cry7371 | /bin/bash
+          echo $njxpb3565 | jq -r .pq84 | /bin/bash
+          echo $pigq7 | jq -r .ya44542 | /bin/bash
+          echo $ovzao78 | jq -r .ja2076 | /bin/bash
+          echo $egtji12 | jq -r .htux72126 | /bin/bash
+          echo $urfyc534 | jq -r .bcnva7 | /bin/bash
+          echo $s2924 | jq -r .sbvw26548 | /bin/bash
+          echo $cgnb441 | jq -r .pbhd214 | /bin/bash
+
